@@ -5,7 +5,7 @@ var app = express();
 var restful = require('node-restful');
 var mongoose = restful.mongoose;
 var port =3000;
-mongoose.connect('mongodb://magbeny@gmail.com:gator123@ds043220.mongolab.com:43220/myrestapp');
+//mongoose.connect('mongodb://username1:password1@ds043220.mongolab.com:43220/myrestapp');
 
 var ProductSchema = mongoose.Schema({
  "name": String,
