@@ -18,4 +18,4 @@ var Products = restful.model('products', ProductSchema);
 Products.methods(['get','post','put','post','delete']);
 Products.register(app, 'api/products');
 app.listen(port);
-console.log('Listening on port: '+port);
+console.log('Listening on port: '+ port);
